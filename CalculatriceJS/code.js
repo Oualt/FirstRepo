@@ -31,13 +31,18 @@ function multiplication(premierNombre, deuxiemeNombre) {
 
 function division(premierNombre, deuxiemeNombre) {
   if (deuxiemeNombre == 0) {
-    alert("ERREUR ON DIVISE PAS PAR 0");
+    alert("ERREUR ON NE DIVISE PAS PAR 0");
   } else {
     resultat = premierNombre / deuxiemeNombre;
     showResult(resultat);
     return resultat;
   }
 }
+
+function showResult(resultat) {
+  alert("Voici le résultat de l'opération : " + resultat);
+}
+
 let restart = false;
 do {
   do {
@@ -80,10 +85,6 @@ do {
     alert(error);
   }
 
-  function showResult(resultat) {
-    alert("Voici le résultat de l'opération : " + resultat);
-  }
-
-  restart = confirm("Voulez vous refaire un calcul ?");
+    restart = confirm("Voulez vous refaire un calcul ?");
   restart;
 } while (restart);
