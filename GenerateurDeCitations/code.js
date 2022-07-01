@@ -20,8 +20,3 @@ function getRandomIndex() {
     } while (dernierIndex == randomIndex);
         
  }
-
-//  function generate() { 
-//     citation.textContent = citations[randomIndex][0];
-//     auteur.textContent = citations[randomIndex][1];
-//  }
