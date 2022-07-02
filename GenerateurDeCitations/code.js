@@ -11,12 +11,12 @@ btn.addEventListener('click', getRandomIndex);
 function generate() { 
     citation.textContent = citations[randomIndex][0];
     auteur.textContent = citations[randomIndex][1];
- }
+}
 
 function getRandomIndex() { 
     do {
         randomIndex = Math.floor(Math.random() * citations.length);
-        generate();
     } while (dernierIndex == randomIndex);
-        
- }
+    dernierIndex = randomIndex;
+    generate();
+}
