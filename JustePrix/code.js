@@ -48,7 +48,8 @@ function verifier(nombre) {
         div.className = "instruction fini";
         input.disabled = true;
         btn.textContent = "Rejouer";
-        replay = false;        
+        replay = false;
+        coups = 0;        
     }
     document.querySelector('#instructions').prepend(div);
  }
