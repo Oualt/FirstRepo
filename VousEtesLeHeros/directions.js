@@ -123,6 +123,8 @@ function resetEndroits(){
     endroits = ["un autre endroit", "autre part", "ailleurs"];
 }
 
+// Boussole
+
 function traceDestination(destination){
     if(destination == "Droite") {
         rotation += 90;
