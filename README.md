@@ -6,3 +6,4 @@ Vous pouvez voir mon jeu vidéo Dungeon Rain sur https://www.youtube.com/watch?v
 
 J'ai également un side project intitulé A Maze In développé sur mon temps libre (rare ces derniers temps ;) ) disponible ici : https://drive.google.com/drive/folders/1Dxs_sIsZt1RqDeGy9QnF742mTHCUUUGO?usp=sharing
 
+Autre side project : VousEtesLeHeros, inspiré des livres dont vous êtes le héros.
